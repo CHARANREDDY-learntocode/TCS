@@ -1,0 +1,28 @@
+<table class="table table-hover">
+<thead class='bg-primary text-white'>
+    <tr>
+      <th>ID</th>
+      <th>username</th>
+      <th>Full Name</th>
+      <th>Email</th>
+      <th>Temaprature(<sup>0</sup>F)</th>
+      <th>Blood Pressure</th>
+      <th>Respiration</th>
+      <th>Glucose</th>
+      <th>Heart Rate</th>
+      <th>Oxygen %</th>
+    </tr>
+</thead>
+<tbody>
+    <td>{{employee.employee_id}}</td>
+    <td class='font-weight-bold'>{{employee.username}}</td>
+    <td class='font-weight-bold'>{{employee.first_name}} {{employee.last_name}}</td>
+    <td class='font-weight-bold'>{{employee.email}}</td>
+    <td>{{employee.body_temp}}</td>
+    <td>{{employee.blood_pressure}}</td>
+    <td>{{employee.respiration}}</td>
+    <td>{{employee.glucose}}</td>
+    <td>{{employee.heart_rate}}</td>
+    <td>{{employee.oxygen_saturation}}</td>
+</tbody>
+</table>
